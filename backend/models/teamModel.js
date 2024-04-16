@@ -15,10 +15,10 @@ const teamSchema = new mongoose.Schema({
       "Please enter a valid email",
     ],
   },
-  password: {
-    type: String,
-    required: [true, "Please add a password"],
-  },
+  // password: {
+  //   type: String,
+  //   required: [true, "Please add a password"],
+  // },
   phone: {
     type: String,
     default: "+234 812345678",
@@ -26,7 +26,17 @@ const teamSchema = new mongoose.Schema({
   role: {
     type: String,
     required: true,
-    default: admin,
+    default: "admin",
+  },
+  photo: {
+    type: String,
+    required: true,
+    default: "https://i.ibb.co/4pDNDk1/avatar.png",
+  },
+  isVerified: {
+    type: Boolean,
+    required: true,
+    default: false,
   },
 });
 const Team = mongoose.model("Team", teamSchema);
