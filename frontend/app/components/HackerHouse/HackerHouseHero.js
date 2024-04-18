@@ -9,25 +9,23 @@ import Component28 from "../../../public/images/Component28.png";
 import Component282 from "../../../public/images/Component282.png";
 const HackerHouseHero = () => {
   return (
-    <>
-
-  <div className="font-serif lg:w-[1440px] md:w-[834px] h-[640px] bg-[#031700] flex-wrap justify-end overflow-auto ">
+    <div className="font-serif lg:w-[1440px] md:w-[834px] h-[640px] bg-[#031700] flex-wrap justify-end overflow-auto ">
       <div className="flex justify-between ">
         <div className=" ">
           <img
             src="hackerheroleft.svg"
             className="lg:w-[374px] md:w-[187px] w-[93px] mr-4 animate-blink hidden md:block "
           />
-        </div> 
+        </div>
 
         <div className="">
           <img
-            src="/Group 155.png"
+            src="/hackerhero/Group 155.png"
             alt="Group 155"
             className=" lg:w-[60px] md:w-[29.5px] w-[14px] absolute top-[162px] left-[482px] hidden lg:block"
           />
           <img
-            src="/Group 156.png"
+            src="/hackerhero/Group 156.png"
             alt=""
             className="  lg:w-[95px] md:w-[47px] w-[24] absolute top-[164px] left-[874px] hidden lg:block"
           />
@@ -70,7 +68,7 @@ const HackerHouseHero = () => {
         </div>
       </div>
     </div>
-    </>
   );
 };
+
 export default HackerHouseHero;
