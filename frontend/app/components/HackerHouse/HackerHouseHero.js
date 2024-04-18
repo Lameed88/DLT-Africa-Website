@@ -20,12 +20,12 @@ const HackerHouseHero = () => {
 
         <div className="">
           <img
-            src="/hackerhero/Group 155.png"
+            src="Group 155.png"
             alt="Group 155"
             className=" lg:w-[60px] md:w-[29.5px] w-[14px] absolute top-[162px] left-[482px] hidden lg:block"
           />
           <img
-            src="/hackerhero/Group 156.png"
+            src="Group 156.png"
             alt=""
             className="  lg:w-[95px] md:w-[47px] w-[24] absolute top-[164px] left-[874px] hidden lg:block"
           />
