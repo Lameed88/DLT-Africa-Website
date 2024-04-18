@@ -1,6 +1,7 @@
+
 const HackerHouseEventItinery = () => {
   return (
-    <div className='  border-b border-solid border-black border-opacity-30 bg-[#031700] flex-shrink-0'>
+    <div className='border-b border-solid border-black border-opacity-30 bg-[#031700] flex-shrink-0'>
       <div>
       <h1 className='text-[#F7FCFE] font-Serif text-[48px] pt-[57px] text-center  font-normal font-serif  mb-10'>Event Itinerary</h1>
       </div>

@@ -46,10 +46,9 @@ const Header = () => {
   return (
     <>
       <div
-        // className="flex justify-between px-[50px] py-[20px] sm:py-0 sm:px-0  "
         className="flex justify-between py-[10px]  sm:py-5 px-[20px] sm:px-[10px] md:px-[50px] "
         style={{
-          backgroundColor: pathname === "/hacker-house" ? "#000" : "#F6F7F6",
+          backgroundColor: pathname === "/hacker-house" ? "#031700" : "#F6F7F6",
         }}
       >
         <div className="sm:py-0 sm:px-0">
@@ -70,7 +69,6 @@ const Header = () => {
             placement="top"
             open={openTop}
             onClose={closeDrawerTop}
-            // className="p-4 min-h-[300px] px-[50px] pb-[300px] mt-[-20px] "
             className="p-4 min-h-[300px] px-[10px] sm:px-[50px] pb-[300px] mt-[-20px] "
           >
             <div className="my-[10px] flex items-center justify-between ">
