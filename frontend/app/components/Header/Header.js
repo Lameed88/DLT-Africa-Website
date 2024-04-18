@@ -16,6 +16,7 @@ const Header = () => {
 
   useEffect(() => {
     const loggedIn = localStorage.getItem("isLoggedIn");
+    
     setIsLoggedIn(loggedIn === "true");
   }, []);
 
@@ -25,6 +26,7 @@ const Header = () => {
   };
 
   useEffect(() => {
+
     setPathname(window.location.pathname);
 
     const handlePathnameChange = () => {
@@ -49,7 +51,7 @@ const Header = () => {
           backgroundColor: pathname === "/hacker-house" ? "#031700" : "#F6F7F6",
         }}
       >
-        <div>
+        <div className="sm:py-0 sm:px-0">
           <Link href={"/"}>
             <img src={navbarContent.logo} />
           </Link>
